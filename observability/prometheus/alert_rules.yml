@@ -1,0 +1,38 @@
+groups:
+  - name: sentinelstream-ml-alerts
+    rules:
+      - alert: SentinelStreamModelNotReady
+        expr: min(ml_model_ready) == 0
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: SentinelStream ML model not ready
+          description: One or more services report ml_model_ready == 0 for 2 minutes.
+
+      - alert: SentinelStreamTelemetryIngestionStalled
+        expr: rate(telemetry_events_consumed_total[2m]) == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: SentinelStream telemetry ingestion stalled
+          description: Scorer is not consuming telemetry (rate == 0) for 2 minutes.
+
+      - alert: SentinelStreamAnomalySpike
+        expr: sum by (service) (rate(anomaly_flags_total{flag="ml_iforest_anomaly"}[2m])) > 0.5
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: SentinelStream anomaly spike for {{ $labels.service }}
+          description: ML anomaly rate exceeded 0.5/s for 1 minute for service={{ $labels.service }}.
+
+      - alert: SentinelStreamHighAnomalyScore
+        expr: max by (service) (ml_anomaly_score) > 0.65
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: SentinelStream high anomaly score for {{ $labels.service }}
+          description: ML anomaly score > 0.65 for 2 minutes for service={{ $labels.service }}.

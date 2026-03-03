@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data dumps / artifacts
+data/*.jsonl
+results/*.json
+results/*.md
+results/runs/
+
+# OS
+.DS_Store
+
+# Logs
+*.log

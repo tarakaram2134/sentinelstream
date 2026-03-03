@@ -1,0 +1,70 @@
+services:
+  redpanda:
+    image: redpandadata/redpanda:latest
+    container_name: redpanda
+    command:
+      - redpanda
+      - start
+      - --overprovisioned
+      - --smp
+      - "1"
+      - --memory
+      - "1G"
+      - --reserve-memory
+      - "0M"
+      - --node-id
+      - "0"
+      - --check=false
+      - --kafka-addr
+      - PLAINTEXT://0.0.0.0:9092
+      - --advertise-kafka-addr
+      - PLAINTEXT://redpanda:9092
+    ports:
+      - "9092:9092"
+      - "9644:9644"
+
+  generator:
+    build:
+      context: .
+      dockerfile: services/generator/Dockerfile
+    container_name: sentinelstream-generator
+    depends_on:
+      - redpanda
+    environment:
+      KAFKA_BROKER: redpanda:9092
+      TELEMETRY_TOPIC: telemetry
+  command: ["sh","-lc","python services/common/wait_for_kafka.py && python services/generator/generate_telemetry.py"]
+
+  scorer:
+    build:
+      context: .
+      dockerfile: services/scorer/Dockerfile
+    container_name: sentinelstream-scorer
+    depends_on:
+      - redpanda
+    ports:
+      - "8000:8000"
+    environment:
+      KAFKA_BROKER: redpanda:9092
+      TELEMETRY_TOPIC: telemetry
+      ANOMALIES_TOPIC: anomalies
+  command: ["sh","-lc","python services/common/wait_for_kafka.py && python services/scorer/score_anomalies_ml.py"]
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    depends_on:
+      - scorer
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./observability/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./observability/prometheus/alert_rules.yml:/etc/prometheus/alert_rules.yml:ro
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    depends_on:
+      - prometheus
+    ports:
+      - "3000:3000"

@@ -1,0 +1,4 @@
+confluent-kafka==2.13.0
+prometheus_client==0.24.1
+numpy==1.26.4
+scikit-learn==1.5.2

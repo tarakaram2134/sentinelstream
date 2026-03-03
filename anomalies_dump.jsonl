@@ -1,0 +1,1183 @@
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:06:54.115648+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 12.32, \"p95_latency_ms\": 170.86, \"error_rate\": 0.0048, \"cpu_pct\": 25.75, \"mem_pct\": 35.29}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5525, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489214141,
+  "partition": 0,
+  "offset": 213
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:06:55.116644+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 13.25, \"p95_latency_ms\": 201.26, \"error_rate\": 0.0024, \"cpu_pct\": 19.14, \"mem_pct\": 34.27}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.558, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489215139,
+  "partition": 0,
+  "offset": 214
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:06:56.117439+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 15.04, \"p95_latency_ms\": 163.19, \"error_rate\": 0.0029, \"cpu_pct\": 20.07, \"mem_pct\": 37.14}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5557, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489216135,
+  "partition": 0,
+  "offset": 215
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:06:59.120374+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 12.79, \"p95_latency_ms\": 169.89, \"error_rate\": 0.0024, \"cpu_pct\": 26.56, \"mem_pct\": 33.87}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5554, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489219144,
+  "partition": 0,
+  "offset": 216
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:07:02.123375+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 14.49, \"p95_latency_ms\": 170.89, \"error_rate\": 0.0034, \"cpu_pct\": 24.08, \"mem_pct\": 37.39}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5581, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489222145,
+  "partition": 0,
+  "offset": 217
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:08:48.186542+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 7.08, \"p95_latency_ms\": 317.06, \"error_rate\": 0.008, \"cpu_pct\": 29.02, \"mem_pct\": 36.52}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5605, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489328218,
+  "partition": 0,
+  "offset": 218
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:08:49.187711+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 6.69, \"p95_latency_ms\": 294.62, \"error_rate\": 0.0059, \"cpu_pct\": 25.7, \"mem_pct\": 36.63}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.555, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489329221,
+  "partition": 0,
+  "offset": 219
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:08:52.191115+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 8.42, \"p95_latency_ms\": 344.68, \"error_rate\": 0.0037, \"cpu_pct\": 17.32, \"mem_pct\": 37.95}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.559, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489332230,
+  "partition": 0,
+  "offset": 220
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:08:57.347984+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 5.99, \"p95_latency_ms\": 277.17, \"error_rate\": 0.0063, \"cpu_pct\": 31.51, \"mem_pct\": 38.17}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5513, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489337388,
+  "partition": 0,
+  "offset": 221
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:08:59.350499+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 6.41, \"p95_latency_ms\": 373.03, \"error_rate\": 0.0033, \"cpu_pct\": 18.71, \"mem_pct\": 36.95}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5557, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489339392,
+  "partition": 0,
+  "offset": 222
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:11:44.852919+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 4.64, \"p95_latency_ms\": 308.25, \"error_rate\": 0.0021, \"cpu_pct\": 30.85, \"mem_pct\": 34.87}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5571, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489504898,
+  "partition": 0,
+  "offset": 223
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:11:47.855849+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 6.69, \"p95_latency_ms\": 300.75, \"error_rate\": 0.003, \"cpu_pct\": 28.54, \"mem_pct\": 36.86}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5596, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489507894,
+  "partition": 0,
+  "offset": 224
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:11:48.856451+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 5.49, \"p95_latency_ms\": 297.01, \"error_rate\": 0.0024, \"cpu_pct\": 21.67, \"mem_pct\": 36.94}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5506, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489508894,
+  "partition": 0,
+  "offset": 225
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:11:49.857071+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 5.26, \"p95_latency_ms\": 350.04, \"error_rate\": 0.0037, \"cpu_pct\": 20.46, \"mem_pct\": 34.61}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5546, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489509897,
+  "partition": 0,
+  "offset": 226
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:11:50.857898+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 4.75, \"p95_latency_ms\": 297.83, \"error_rate\": 0.0076, \"cpu_pct\": 31.9, \"mem_pct\": 36.83}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5554, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489510888,
+  "partition": 0,
+  "offset": 227
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:11:53.860814+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 4.58, \"p95_latency_ms\": 319.42, \"error_rate\": 0.0071, \"cpu_pct\": 33.2, \"mem_pct\": 36.83}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5583, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489513890,
+  "partition": 0,
+  "offset": 228
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:11:54.861869+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 6.69, \"p95_latency_ms\": 301.7, \"error_rate\": 0.0065, \"cpu_pct\": 28.36, \"mem_pct\": 37.15}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5597, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772489514892,
+  "partition": 0,
+  "offset": 229
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:12:43.228757+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 3.27, \"p95_latency_ms\": 155.59, \"error_rate\": 0.0072, \"cpu_pct\": 4.84, \"mem_pct\": 80.98}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5547, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489563252,
+  "partition": 0,
+  "offset": 230
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:12:44.230033+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 3.14, \"p95_latency_ms\": 136.51, \"error_rate\": 0.0049, \"cpu_pct\": 2.43, \"mem_pct\": 77.15}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5511, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489564254,
+  "partition": 0,
+  "offset": 231
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:12:45.231145+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 2.8, \"p95_latency_ms\": 149.52, \"error_rate\": 0.0025, \"cpu_pct\": 1.31, \"mem_pct\": 67.12}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5524, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489565255,
+  "partition": 0,
+  "offset": 232
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:12:50.525110+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 2.74, \"p95_latency_ms\": 131.96, \"error_rate\": 0.0059, \"cpu_pct\": 2.98, \"mem_pct\": 76.99}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5514, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489570556,
+  "partition": 0,
+  "offset": 233
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:12:52.527086+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 3.09, \"p95_latency_ms\": 171.5, \"error_rate\": 0.0029, \"cpu_pct\": 1.0, \"mem_pct\": 69.39}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5519, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489572568,
+  "partition": 0,
+  "offset": 234
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:13:38.708800+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 2.65, \"p95_latency_ms\": 149.36, \"error_rate\": 0.0032, \"cpu_pct\": 1.0, \"mem_pct\": 73.17}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5514, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489618732,
+  "partition": 0,
+  "offset": 235
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:13:39.709394+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 2.61, \"p95_latency_ms\": 166.49, \"error_rate\": 0.0065, \"cpu_pct\": 4.97, \"mem_pct\": 75.4}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5578, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489619730,
+  "partition": 0,
+  "offset": 236
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:13:40.710016+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 2.68, \"p95_latency_ms\": 158.7, \"error_rate\": 0.0022, \"cpu_pct\": 1.0, \"mem_pct\": 74.07}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5557, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489620733,
+  "partition": 0,
+  "offset": 237
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:13:47.715596+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 2.86, \"p95_latency_ms\": 152.21, \"error_rate\": 0.0078, \"cpu_pct\": 4.84, \"mem_pct\": 72.55}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5551, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489627740,
+  "partition": 0,
+  "offset": 238
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:13:48.716626+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 2.57, \"p95_latency_ms\": 171.73, \"error_rate\": 0.0026, \"cpu_pct\": 1.41, \"mem_pct\": 64.11}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5522, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772489628743,
+  "partition": 0,
+  "offset": 239
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:16:43.614369+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 2.51, \"p95_latency_ms\": 102.03, \"error_rate\": 0.1773, \"cpu_pct\": 2.11, \"mem_pct\": 34.21}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5521, \"threshold\": 0.55, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772489803631,
+  "partition": 0,
+  "offset": 240
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:22.447073+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 9.11, \"p95_latency_ms\": 142.73, \"error_rate\": 0.0064, \"cpu_pct\": 16.43, \"mem_pct\": 39.76}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5272, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490142491,
+  "partition": 0,
+  "offset": 241
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:23.447982+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 6.03, \"p95_latency_ms\": 141.49, \"error_rate\": 0.0021, \"cpu_pct\": 27.32, \"mem_pct\": 35.18}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5238, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490143495,
+  "partition": 0,
+  "offset": 242
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:24.449283+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 10.75, \"p95_latency_ms\": 130.97, \"error_rate\": 0.0053, \"cpu_pct\": 14.12, \"mem_pct\": 35.82}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5202, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490144492,
+  "partition": 0,
+  "offset": 243
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:25.450323+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 7.36, \"p95_latency_ms\": 124.08, \"error_rate\": 0.0035, \"cpu_pct\": 30.7, \"mem_pct\": 36.54}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5211, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490145489,
+  "partition": 0,
+  "offset": 244
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:26.451313+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 11.15, \"p95_latency_ms\": 145.37, \"error_rate\": 0.004, \"cpu_pct\": 24.98, \"mem_pct\": 34.7}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5206, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490146493,
+  "partition": 0,
+  "offset": 245
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:27.452015+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 5.62, \"p95_latency_ms\": 141.91, \"error_rate\": 0.0035, \"cpu_pct\": 30.22, \"mem_pct\": 36.7}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5212, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490147496,
+  "partition": 0,
+  "offset": 246
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:28.452431+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 6.47, \"p95_latency_ms\": 160.04, \"error_rate\": 0.0031, \"cpu_pct\": 29.62, \"mem_pct\": 36.22}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5217, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490148501,
+  "partition": 0,
+  "offset": 247
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:29.453642+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 9.96, \"p95_latency_ms\": 130.42, \"error_rate\": 0.0071, \"cpu_pct\": 27.82, \"mem_pct\": 38.78}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5244, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490149501,
+  "partition": 0,
+  "offset": 248
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:30.455304+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 7.68, \"p95_latency_ms\": 160.38, \"error_rate\": 0.0031, \"cpu_pct\": 26.86, \"mem_pct\": 37.26}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5223, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490150505,
+  "partition": 0,
+  "offset": 249
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:31.456443+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 9.77, \"p95_latency_ms\": 155.61, \"error_rate\": 0.0063, \"cpu_pct\": 26.5, \"mem_pct\": 36.98}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.52, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490151512,
+  "partition": 0,
+  "offset": 250
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:32.457551+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 10.54, \"p95_latency_ms\": 173.16, \"error_rate\": 0.0066, \"cpu_pct\": 33.55, \"mem_pct\": 35.62}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5203, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490152523,
+  "partition": 0,
+  "offset": 251
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:22:33.458816+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 8.22, \"p95_latency_ms\": 134.56, \"error_rate\": 0.0031, \"cpu_pct\": 19.77, \"mem_pct\": 37.45}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5223, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490153514,
+  "partition": 0,
+  "offset": 252
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:23:20.063952+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.7, \"p95_latency_ms\": 1009.21, \"error_rate\": 0.0035, \"cpu_pct\": 1.0, \"mem_pct\": 33.21}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5222, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772490200101,
+  "partition": 0,
+  "offset": 253
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:23:23.179431+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.7, \"p95_latency_ms\": 735.46, \"error_rate\": 0.006, \"cpu_pct\": 4.64, \"mem_pct\": 34.76}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5203, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772490203217,
+  "partition": 0,
+  "offset": 254
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:23:24.180710+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.75, \"p95_latency_ms\": 868.62, \"error_rate\": 0.0064, \"cpu_pct\": 4.79, \"mem_pct\": 39.01}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5281, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772490204214,
+  "partition": 0,
+  "offset": 255
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:23:27.183230+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.66, \"p95_latency_ms\": 955.27, \"error_rate\": 0.0035, \"cpu_pct\": 1.21, \"mem_pct\": 38.25}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5212, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772490207230,
+  "partition": 0,
+  "offset": 256
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:23:31.187594+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.71, \"p95_latency_ms\": 906.25, \"error_rate\": 0.0053, \"cpu_pct\": 4.14, \"mem_pct\": 38.91}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5281, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772490211242,
+  "partition": 0,
+  "offset": 257
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:25:15.099017+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 1.57, \"p95_latency_ms\": 360.74, \"error_rate\": 0.0028, \"cpu_pct\": 13.41, \"mem_pct\": 37.49}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5202, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490315139,
+  "partition": 0,
+  "offset": 258
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:25:24.108132+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 2.13, \"p95_latency_ms\": 335.97, \"error_rate\": 0.0031, \"cpu_pct\": 25.16, \"mem_pct\": 33.62}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5213, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772490324143,
+  "partition": 0,
+  "offset": 259
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:26:33.629162+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 1.61, \"p95_latency_ms\": 89.99, \"error_rate\": 0.008, \"cpu_pct\": 5.11, \"mem_pct\": 39.77}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5223, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"none\"}",
+  "timestamp": 1772490393689,
+  "partition": 0,
+  "offset": 260
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:30:07.735869+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.19, \"p95_latency_ms\": 185.54, \"error_rate\": 0.1861, \"cpu_pct\": 4.47, \"mem_pct\": 38.9}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5238, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772490607799,
+  "partition": 0,
+  "offset": 261
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:30:28.759555+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.62, \"p95_latency_ms\": 112.96, \"error_rate\": 0.0072, \"cpu_pct\": 4.99, \"mem_pct\": 39.73}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5219, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"none\"}",
+  "timestamp": 1772490628805,
+  "partition": 0,
+  "offset": 262
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:31:01.985988+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.24, \"p95_latency_ms\": 129.19, \"error_rate\": 0.1734, \"cpu_pct\": 1.0, \"mem_pct\": 37.59}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.531, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772490662007,
+  "partition": 0,
+  "offset": 263
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:31:08.317843+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.23, \"p95_latency_ms\": 100.71, \"error_rate\": 0.1652, \"cpu_pct\": 1.0, \"mem_pct\": 37.96}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.534, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772490668346,
+  "partition": 0,
+  "offset": 264
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:31:09.318793+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.25, \"p95_latency_ms\": 126.45, \"error_rate\": 0.1788, \"cpu_pct\": 2.6, \"mem_pct\": 35.47}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5319, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772490669345,
+  "partition": 0,
+  "offset": 265
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:31:10.319335+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.24, \"p95_latency_ms\": 100.34, \"error_rate\": 0.1363, \"cpu_pct\": 1.0, \"mem_pct\": 37.71}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5276, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772490670342,
+  "partition": 0,
+  "offset": 266
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:31:12.320354+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.23, \"p95_latency_ms\": 100.4, \"error_rate\": 0.0996, \"cpu_pct\": 1.0, \"mem_pct\": 32.82}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5252, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772490672347,
+  "partition": 0,
+  "offset": 267
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:31:13.320924+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": 0.23, \"p95_latency_ms\": 104.94, \"error_rate\": 0.1789, \"cpu_pct\": 1.0, \"mem_pct\": 35.02}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5282, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772490673343,
+  "partition": 0,
+  "offset": 268
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:35:01.589345+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.54, \"p95_latency_ms\": 386.23, \"error_rate\": 0.0056, \"cpu_pct\": 4.37, \"mem_pct\": 35.38}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5211, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772490901640,
+  "partition": 0,
+  "offset": 269
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:35:59.922823+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.16, \"p95_latency_ms\": 324.69, \"error_rate\": 0.0068, \"cpu_pct\": 4.63, \"mem_pct\": 66.07}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5225, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772490959990,
+  "partition": 0,
+  "offset": 270
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:01.027911+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.22, \"p95_latency_ms\": 1022.07, \"error_rate\": 0.0024, \"cpu_pct\": 1.0, \"mem_pct\": 33.8}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5211, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491021093,
+  "partition": 0,
+  "offset": 271
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:50.463470+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.48, \"p95_latency_ms\": 198.86, \"error_rate\": 0.0025, \"cpu_pct\": 26.59, \"mem_pct\": 37.98}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5436, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491070488,
+  "partition": 0,
+  "offset": 272
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:51.463869+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.26, \"p95_latency_ms\": 196.92, \"error_rate\": 0.0066, \"cpu_pct\": 33.69, \"mem_pct\": 37.97}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5457, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491071488,
+  "partition": 0,
+  "offset": 273
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:52.465080+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.96, \"p95_latency_ms\": 174.94, \"error_rate\": 0.0029, \"cpu_pct\": 21.35, \"mem_pct\": 35.36}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5356, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491072484,
+  "partition": 0,
+  "offset": 274
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:53.465529+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.68, \"p95_latency_ms\": 179.99, \"error_rate\": 0.0058, \"cpu_pct\": 30.86, \"mem_pct\": 36.2}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5415, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491073492,
+  "partition": 0,
+  "offset": 275
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:54.466826+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.4, \"p95_latency_ms\": 136.62, \"error_rate\": 0.0042, \"cpu_pct\": 20.76, \"mem_pct\": 37.92}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5287, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491074497,
+  "partition": 0,
+  "offset": 276
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:55.467953+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.6, \"p95_latency_ms\": 178.49, \"error_rate\": 0.0058, \"cpu_pct\": 22.72, \"mem_pct\": 34.07}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5394, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491075493,
+  "partition": 0,
+  "offset": 277
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:56.468698+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.75, \"p95_latency_ms\": 211.92, \"error_rate\": 0.0041, \"cpu_pct\": 15.31, \"mem_pct\": 36.68}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5371, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491076493,
+  "partition": 0,
+  "offset": 278
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:57.469926+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.76, \"p95_latency_ms\": 153.78, \"error_rate\": 0.0043, \"cpu_pct\": 19.19, \"mem_pct\": 38.53}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5329, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491077494,
+  "partition": 0,
+  "offset": 279
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:58.471103+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.31, \"p95_latency_ms\": 175.29, \"error_rate\": 0.0031, \"cpu_pct\": 11.85, \"mem_pct\": 35.93}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5259, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491078493,
+  "partition": 0,
+  "offset": 280
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:37:59.472367+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.76, \"p95_latency_ms\": 145.84, \"error_rate\": 0.0027, \"cpu_pct\": 21.04, \"mem_pct\": 37.99}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5307, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491079495,
+  "partition": 0,
+  "offset": 281
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:38:00.473697+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.09, \"p95_latency_ms\": 187.08, \"error_rate\": 0.0038, \"cpu_pct\": 13.63, \"mem_pct\": 33.63}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5343, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491080498,
+  "partition": 0,
+  "offset": 282
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:38:01.474840+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.11, \"p95_latency_ms\": 163.87, \"error_rate\": 0.0033, \"cpu_pct\": 11.83, \"mem_pct\": 32.51}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.534, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491081513,
+  "partition": 0,
+  "offset": 283
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:40:46.671773+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.02, \"p95_latency_ms\": 116.23, \"error_rate\": 0.1363, \"cpu_pct\": 1.0, \"mem_pct\": 36.85}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5233, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491246694,
+  "partition": 0,
+  "offset": 284
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:40:47.673061+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.05, \"p95_latency_ms\": 108.09, \"error_rate\": 0.1759, \"cpu_pct\": 1.21, \"mem_pct\": 33.8}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5345, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491247696,
+  "partition": 0,
+  "offset": 285
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:40:48.674333+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.06, \"p95_latency_ms\": 104.58, \"error_rate\": 0.086, \"cpu_pct\": 1.46, \"mem_pct\": 32.91}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5285, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491248697,
+  "partition": 0,
+  "offset": 286
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:40:49.675394+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.95, \"p95_latency_ms\": 125.66, \"error_rate\": 0.1305, \"cpu_pct\": 1.0, \"mem_pct\": 38.23}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5252, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491249698,
+  "partition": 0,
+  "offset": 287
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:40:50.676301+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.14, \"p95_latency_ms\": 125.19, \"error_rate\": 0.1717, \"cpu_pct\": 1.0, \"mem_pct\": 37.28}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5315, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491250699,
+  "partition": 0,
+  "offset": 288
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:40:51.678766+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.97, \"p95_latency_ms\": 115.85, \"error_rate\": 0.1051, \"cpu_pct\": 4.32, \"mem_pct\": 33.97}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.531, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491251701,
+  "partition": 0,
+  "offset": 289
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:40:52.679979+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.98, \"p95_latency_ms\": 121.29, \"error_rate\": 0.1719, \"cpu_pct\": 1.2, \"mem_pct\": 37.02}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5302, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491252703,
+  "partition": 0,
+  "offset": 290
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:40:54.682290+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.1, \"p95_latency_ms\": 119.93, \"error_rate\": 0.1703, \"cpu_pct\": 1.0, \"mem_pct\": 35.39}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5283, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491254704,
+  "partition": 0,
+  "offset": 291
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:40:55.683444+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.13, \"p95_latency_ms\": 104.46, \"error_rate\": 0.1169, \"cpu_pct\": 2.59, \"mem_pct\": 34.96}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5281, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491255710,
+  "partition": 0,
+  "offset": 292
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:41:45.258340+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.47, \"p95_latency_ms\": 304.0, \"error_rate\": 0.0032, \"cpu_pct\": 26.33, \"mem_pct\": 37.24}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5226, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491305297,
+  "partition": 0,
+  "offset": 293
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:41:50.262029+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.93, \"p95_latency_ms\": 271.36, \"error_rate\": 0.0036, \"cpu_pct\": 28.51, \"mem_pct\": 34.46}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5225, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491310301,
+  "partition": 0,
+  "offset": 294
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:41:51.263220+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.58, \"p95_latency_ms\": 267.03, \"error_rate\": 0.0029, \"cpu_pct\": 20.97, \"mem_pct\": 32.72}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.521, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491311304,
+  "partition": 0,
+  "offset": 295
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:41:52.264167+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.73, \"p95_latency_ms\": 336.65, \"error_rate\": 0.0032, \"cpu_pct\": 25.71, \"mem_pct\": 32.92}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5278, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491312300,
+  "partition": 0,
+  "offset": 296
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:41:54.266207+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.21, \"p95_latency_ms\": 272.19, \"error_rate\": 0.0028, \"cpu_pct\": 27.25, \"mem_pct\": 35.76}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5218, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491314304,
+  "partition": 0,
+  "offset": 297
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:43:38.096788+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.55, \"p95_latency_ms\": 231.29, \"error_rate\": 0.1487, \"cpu_pct\": 2.14, \"mem_pct\": 33.66}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5314, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491418161,
+  "partition": 0,
+  "offset": 298
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:43:39.098104+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.47, \"p95_latency_ms\": 247.53, \"error_rate\": 0.1591, \"cpu_pct\": 1.0, \"mem_pct\": 37.44}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.528, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491419162,
+  "partition": 0,
+  "offset": 299
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:43:40.099291+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.53, \"p95_latency_ms\": 241.38, \"error_rate\": 0.1428, \"cpu_pct\": 1.0, \"mem_pct\": 36.82}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5229, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491420165,
+  "partition": 0,
+  "offset": 300
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:43:41.100631+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.49, \"p95_latency_ms\": 247.41, \"error_rate\": 0.1605, \"cpu_pct\": 1.0, \"mem_pct\": 38.19}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5302, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491421200,
+  "partition": 0,
+  "offset": 301
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:43:44.104889+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.49, \"p95_latency_ms\": 240.05, \"error_rate\": 0.0786, \"cpu_pct\": 2.66, \"mem_pct\": 38.54}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5221, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491424172,
+  "partition": 0,
+  "offset": 302
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:43:45.105959+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.47, \"p95_latency_ms\": 205.61, \"error_rate\": 0.1257, \"cpu_pct\": 3.84, \"mem_pct\": 34.11}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5297, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491425174,
+  "partition": 0,
+  "offset": 303
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:43:48.109393+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.49, \"p95_latency_ms\": 207.98, \"error_rate\": 0.1532, \"cpu_pct\": 1.0, \"mem_pct\": 34.01}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5237, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"error_storm\"}",
+  "timestamp": 1772491428170,
+  "partition": 0,
+  "offset": 304
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:44:40.569150+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.21, \"p95_latency_ms\": 353.78, \"error_rate\": 0.0021, \"cpu_pct\": 19.4, \"mem_pct\": 33.21}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5219, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491480612,
+  "partition": 0,
+  "offset": 305
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:44:41.569775+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.45, \"p95_latency_ms\": 312.67, \"error_rate\": 0.0029, \"cpu_pct\": 30.48, \"mem_pct\": 34.89}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5247, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491481626,
+  "partition": 0,
+  "offset": 306
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:44:42.570816+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.86, \"p95_latency_ms\": 324.73, \"error_rate\": 0.0042, \"cpu_pct\": 30.41, \"mem_pct\": 37.85}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5261, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491482609,
+  "partition": 0,
+  "offset": 307
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:44:47.576369+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.66, \"p95_latency_ms\": 299.36, \"error_rate\": 0.0027, \"cpu_pct\": 25.39, \"mem_pct\": 37.84}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5213, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491487615,
+  "partition": 0,
+  "offset": 308
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:44:48.577486+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.32, \"p95_latency_ms\": 307.2, \"error_rate\": 0.0026, \"cpu_pct\": 23.69, \"mem_pct\": 34.15}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.521, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491488615,
+  "partition": 0,
+  "offset": 309
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:44:49.578785+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.08, \"p95_latency_ms\": 303.75, \"error_rate\": 0.0026, \"cpu_pct\": 24.56, \"mem_pct\": 36.32}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5209, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491489620,
+  "partition": 0,
+  "offset": 310
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:36.203793+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.91, \"p95_latency_ms\": 312.6, \"error_rate\": 0.0029, \"cpu_pct\": 26.13, \"mem_pct\": 36.58}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.521, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491536266,
+  "partition": 0,
+  "offset": 311
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:38.205773+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.42, \"p95_latency_ms\": 365.78, \"error_rate\": 0.0029, \"cpu_pct\": 27.67, \"mem_pct\": 33.88}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5255, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491538266,
+  "partition": 0,
+  "offset": 312
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:39.206769+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.8, \"p95_latency_ms\": 345.91, \"error_rate\": 0.004, \"cpu_pct\": 22.52, \"mem_pct\": 32.47}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5297, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491539278,
+  "partition": 0,
+  "offset": 313
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:40.207780+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.16, \"p95_latency_ms\": 382.87, \"error_rate\": 0.003, \"cpu_pct\": 20.63, \"mem_pct\": 33.53}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5274, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491540279,
+  "partition": 0,
+  "offset": 314
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:42.209370+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.64, \"p95_latency_ms\": 413.21, \"error_rate\": 0.0029, \"cpu_pct\": 12.99, \"mem_pct\": 38.27}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5286, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491542273,
+  "partition": 0,
+  "offset": 315
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:43.211066+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.46, \"p95_latency_ms\": 335.85, \"error_rate\": 0.0022, \"cpu_pct\": 29.61, \"mem_pct\": 35.27}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5236, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491543275,
+  "partition": 0,
+  "offset": 316
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:44.211899+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.69, \"p95_latency_ms\": 353.82, \"error_rate\": 0.0035, \"cpu_pct\": 16.86, \"mem_pct\": 34.62}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5235, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491544274,
+  "partition": 0,
+  "offset": 317
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:45.212638+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.52, \"p95_latency_ms\": 309.27, \"error_rate\": 0.0038, \"cpu_pct\": 21.05, \"mem_pct\": 37.96}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5221, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491545273,
+  "partition": 0,
+  "offset": 318
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:46.213388+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.38, \"p95_latency_ms\": 266.04, \"error_rate\": 0.0022, \"cpu_pct\": 20.74, \"mem_pct\": 33.77}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5201, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491546273,
+  "partition": 0,
+  "offset": 319
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:45:47.214143+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.47, \"p95_latency_ms\": 333.61, \"error_rate\": 0.0052, \"cpu_pct\": 22.55, \"mem_pct\": 34.31}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5515, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491549527,
+  "partition": 0,
+  "offset": 320
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:46:36.621153+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.45, \"p95_latency_ms\": 118.43, \"error_rate\": 0.0051, \"cpu_pct\": 2.47, \"mem_pct\": 58.18}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5211, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"memory_leak\"}",
+  "timestamp": 1772491596669,
+  "partition": 0,
+  "offset": 321
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:31.125201+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -9.67, \"p95_latency_ms\": 134.4, \"error_rate\": 0.003, \"cpu_pct\": 25.55, \"mem_pct\": 36.24}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5368, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491651175,
+  "partition": 0,
+  "offset": 322
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:32.126205+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -12.1, \"p95_latency_ms\": 167.22, \"error_rate\": 0.0027, \"cpu_pct\": 16.71, \"mem_pct\": 32.4}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5397, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491652176,
+  "partition": 0,
+  "offset": 323
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:33.127211+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -9.03, \"p95_latency_ms\": 141.27, \"error_rate\": 0.0027, \"cpu_pct\": 20.84, \"mem_pct\": 36.83}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5362, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491653183,
+  "partition": 0,
+  "offset": 324
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:34.128225+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -6.91, \"p95_latency_ms\": 171.76, \"error_rate\": 0.0051, \"cpu_pct\": 30.92, \"mem_pct\": 35.0}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5431, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491654187,
+  "partition": 0,
+  "offset": 325
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:35.129133+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -8.14, \"p95_latency_ms\": 145.63, \"error_rate\": 0.0027, \"cpu_pct\": 24.25, \"mem_pct\": 37.48}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5393, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491655184,
+  "partition": 0,
+  "offset": 326
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:36.130390+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -9.41, \"p95_latency_ms\": 154.37, \"error_rate\": 0.0062, \"cpu_pct\": 23.29, \"mem_pct\": 37.47}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5369, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491656187,
+  "partition": 0,
+  "offset": 327
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:37.131467+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -13.04, \"p95_latency_ms\": 166.1, \"error_rate\": 0.0033, \"cpu_pct\": 27.65, \"mem_pct\": 33.75}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5395, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491657188,
+  "partition": 0,
+  "offset": 328
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:38.132482+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -7.49, \"p95_latency_ms\": 152.88, \"error_rate\": 0.0046, \"cpu_pct\": 31.04, \"mem_pct\": 36.39}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5413, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491658184,
+  "partition": 0,
+  "offset": 329
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:39.133526+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -8.32, \"p95_latency_ms\": 154.17, \"error_rate\": 0.0027, \"cpu_pct\": 16.97, \"mem_pct\": 32.67}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5369, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491659184,
+  "partition": 0,
+  "offset": 330
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:40.134558+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -7.11, \"p95_latency_ms\": 131.52, \"error_rate\": 0.0057, \"cpu_pct\": 23.41, \"mem_pct\": 38.91}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5387, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491660187,
+  "partition": 0,
+  "offset": 331
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:47:41.135587+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -9.6, \"p95_latency_ms\": 107.3, \"error_rate\": 0.0037, \"cpu_pct\": 17.88, \"mem_pct\": 36.95}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5205, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491661185,
+  "partition": 0,
+  "offset": 332
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:48:28.565203+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.67, \"p95_latency_ms\": 720.73, \"error_rate\": 0.004, \"cpu_pct\": 1.0, \"mem_pct\": 34.33}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5206, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491708628,
+  "partition": 0,
+  "offset": 333
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:48:29.566438+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.67, \"p95_latency_ms\": 1009.71, \"error_rate\": 0.0029, \"cpu_pct\": 1.0, \"mem_pct\": 33.19}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5307, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491709637,
+  "partition": 0,
+  "offset": 334
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:48:30.567411+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.76, \"p95_latency_ms\": 1149.21, \"error_rate\": 0.0043, \"cpu_pct\": 2.55, \"mem_pct\": 36.42}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5365, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491710637,
+  "partition": 0,
+  "offset": 335
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:48:31.568118+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.68, \"p95_latency_ms\": 893.79, \"error_rate\": 0.0042, \"cpu_pct\": 2.31, \"mem_pct\": 32.84}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5338, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491711632,
+  "partition": 0,
+  "offset": 336
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:48:32.569290+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.67, \"p95_latency_ms\": 782.57, \"error_rate\": 0.0024, \"cpu_pct\": 1.0, \"mem_pct\": 37.67}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5225, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491712633,
+  "partition": 0,
+  "offset": 337
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:48:35.572597+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.68, \"p95_latency_ms\": 781.04, \"error_rate\": 0.0028, \"cpu_pct\": 1.0, \"mem_pct\": 37.1}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5215, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491715636,
+  "partition": 0,
+  "offset": 338
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:48:37.574926+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.74, \"p95_latency_ms\": 837.76, \"error_rate\": 0.0032, \"cpu_pct\": 1.0, \"mem_pct\": 33.39}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5261, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491717633,
+  "partition": 0,
+  "offset": 339
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:48:38.575998+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.7, \"p95_latency_ms\": 748.07, \"error_rate\": 0.0037, \"cpu_pct\": 1.0, \"mem_pct\": 34.34}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.521, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491718646,
+  "partition": 0,
+  "offset": 340
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:26.295289+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.63, \"p95_latency_ms\": 384.57, \"error_rate\": 0.004, \"cpu_pct\": 1.0, \"mem_pct\": 32.43}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5312, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491766344,
+  "partition": 0,
+  "offset": 341
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:27.296532+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.49, \"p95_latency_ms\": 312.26, \"error_rate\": 0.0032, \"cpu_pct\": 1.0, \"mem_pct\": 32.69}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5209, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491767357,
+  "partition": 0,
+  "offset": 342
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:28.297415+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -4.07, \"p95_latency_ms\": 315.64, \"error_rate\": 0.0023, \"cpu_pct\": 1.0, \"mem_pct\": 37.16}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5237, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491768355,
+  "partition": 0,
+  "offset": 343
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:29.298572+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.68, \"p95_latency_ms\": 376.44, \"error_rate\": 0.0037, \"cpu_pct\": 1.0, \"mem_pct\": 32.52}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5302, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491769415,
+  "partition": 0,
+  "offset": 344
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:30.299835+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.81, \"p95_latency_ms\": 478.22, \"error_rate\": 0.0022, \"cpu_pct\": 1.0, \"mem_pct\": 34.4}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5302, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491770359,
+  "partition": 0,
+  "offset": 345
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:31.300867+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.91, \"p95_latency_ms\": 386.75, \"error_rate\": 0.0022, \"cpu_pct\": 1.0, \"mem_pct\": 33.02}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5282, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491771362,
+  "partition": 0,
+  "offset": 346
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:33.303162+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.56, \"p95_latency_ms\": 486.94, \"error_rate\": 0.0022, \"cpu_pct\": 1.24, \"mem_pct\": 36.17}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5361, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491773357,
+  "partition": 0,
+  "offset": 347
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:34.304380+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.78, \"p95_latency_ms\": 503.85, \"error_rate\": 0.0036, \"cpu_pct\": 1.0, \"mem_pct\": 34.6}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5286, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491774358,
+  "partition": 0,
+  "offset": 348
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:35.305212+00:00\", \"service\": \"search\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.89, \"p95_latency_ms\": 413.1, \"error_rate\": 0.0035, \"cpu_pct\": 1.0, \"mem_pct\": 35.9}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5277, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491775358,
+  "partition": 0,
+  "offset": 349
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:36.306194+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.56, \"p95_latency_ms\": 517.75, \"error_rate\": 0.0046, \"cpu_pct\": 1.93, \"mem_pct\": 35.85}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5345, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491776359,
+  "partition": 0,
+  "offset": 350
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:49:37.307355+00:00\", \"service\": \"search\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.63, \"p95_latency_ms\": 316.08, \"error_rate\": 0.0026, \"cpu_pct\": 1.0, \"mem_pct\": 34.5}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5208, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491777364,
+  "partition": 0,
+  "offset": 351
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:50:23.603668+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.64, \"p95_latency_ms\": 322.83, \"error_rate\": 0.0027, \"cpu_pct\": 11.99, \"mem_pct\": 37.52}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5383, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491823693,
+  "partition": 0,
+  "offset": 352
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:50:24.604857+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.05, \"p95_latency_ms\": 320.14, \"error_rate\": 0.0029, \"cpu_pct\": 26.29, \"mem_pct\": 32.59}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5592, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491824673,
+  "partition": 0,
+  "offset": 353
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:50:25.605912+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.19, \"p95_latency_ms\": 356.26, \"error_rate\": 0.003, \"cpu_pct\": 25.27, \"mem_pct\": 33.32}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5596, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491825669,
+  "partition": 0,
+  "offset": 354
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:50:26.606711+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.07, \"p95_latency_ms\": 311.16, \"error_rate\": 0.0035, \"cpu_pct\": 21.38, \"mem_pct\": 35.75}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5538, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491826674,
+  "partition": 0,
+  "offset": 355
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:50:27.607767+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.17, \"p95_latency_ms\": 301.51, \"error_rate\": 0.0024, \"cpu_pct\": 25.63, \"mem_pct\": 35.45}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5547, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491827697,
+  "partition": 0,
+  "offset": 356
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:50:31.753519+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.99, \"p95_latency_ms\": 346.92, \"error_rate\": 0.0031, \"cpu_pct\": 25.52, \"mem_pct\": 33.38}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5592, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491831827,
+  "partition": 0,
+  "offset": 357
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:50:32.753967+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.82, \"p95_latency_ms\": 270.33, \"error_rate\": 0.0031, \"cpu_pct\": 13.64, \"mem_pct\": 37.98}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.539, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491832812,
+  "partition": 0,
+  "offset": 358
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:50:33.754388+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -1.68, \"p95_latency_ms\": 340.84, \"error_rate\": 0.0034, \"cpu_pct\": 25.39, \"mem_pct\": 37.39}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5557, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491833816,
+  "partition": 0,
+  "offset": 359
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:50:34.754759+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.54, \"p95_latency_ms\": 388.75, \"error_rate\": 0.0034, \"cpu_pct\": 22.97, \"mem_pct\": 32.71}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.56, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772491834813,
+  "partition": 0,
+  "offset": 360
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:52:18.811320+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.97, \"p95_latency_ms\": 1084.86, \"error_rate\": 0.0029, \"cpu_pct\": 1.0, \"mem_pct\": 33.68}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5294, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491938866,
+  "partition": 0,
+  "offset": 361
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:52:20.812991+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.9, \"p95_latency_ms\": 1105.8, \"error_rate\": 0.0021, \"cpu_pct\": 1.0, \"mem_pct\": 36.82}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5315, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491940877,
+  "partition": 0,
+  "offset": 362
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:52:22.815187+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.85, \"p95_latency_ms\": 977.74, \"error_rate\": 0.0024, \"cpu_pct\": 1.0, \"mem_pct\": 35.15}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5268, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491942863,
+  "partition": 0,
+  "offset": 363
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:52:24.817178+00:00\", \"service\": \"checkout\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.93, \"p95_latency_ms\": 951.08, \"error_rate\": 0.0038, \"cpu_pct\": 1.0, \"mem_pct\": 36.47}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5291, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491944867,
+  "partition": 0,
+  "offset": 364
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:52:25.818100+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.93, \"p95_latency_ms\": 1073.63, \"error_rate\": 0.0048, \"cpu_pct\": 2.22, \"mem_pct\": 35.76}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5323, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491945884,
+  "partition": 0,
+  "offset": 365
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:52:28.821034+00:00\", \"service\": \"checkout\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -0.84, \"p95_latency_ms\": 973.42, \"error_rate\": 0.0038, \"cpu_pct\": 1.0, \"mem_pct\": 36.22}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5279, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491948882,
+  "partition": 0,
+  "offset": 366
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:53:19.360531+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.37, \"p95_latency_ms\": 486.04, \"error_rate\": 0.0056, \"cpu_pct\": 3.09, \"mem_pct\": 37.18}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5245, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772491999384,
+  "partition": 0,
+  "offset": 367
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:53:22.362825+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.54, \"p95_latency_ms\": 593.02, \"error_rate\": 0.0023, \"cpu_pct\": 1.12, \"mem_pct\": 38.13}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5216, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772492002383,
+  "partition": 0,
+  "offset": 368
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:54:15.746643+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.19, \"p95_latency_ms\": 293.73, \"error_rate\": 0.0035, \"cpu_pct\": 29.15, \"mem_pct\": 34.59}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5335, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772492055781,
+  "partition": 0,
+  "offset": 369
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:54:16.747385+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -4.11, \"p95_latency_ms\": 262.65, \"error_rate\": 0.005, \"cpu_pct\": 17.85, \"mem_pct\": 34.71}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5264, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772492056786,
+  "partition": 0,
+  "offset": 370
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:54:17.748222+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -4.62, \"p95_latency_ms\": 299.37, \"error_rate\": 0.0028, \"cpu_pct\": 20.66, \"mem_pct\": 33.64}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5288, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772492057788,
+  "partition": 0,
+  "offset": 371
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:54:19.750535+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.09, \"p95_latency_ms\": 353.41, \"error_rate\": 0.0024, \"cpu_pct\": 15.0, \"mem_pct\": 34.12}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5266, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772492059788,
+  "partition": 0,
+  "offset": 372
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:54:20.751438+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -4.81, \"p95_latency_ms\": 223.04, \"error_rate\": 0.0037, \"cpu_pct\": 28.91, \"mem_pct\": 33.91}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5311, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772492060777,
+  "partition": 0,
+  "offset": 373
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:54:25.026242+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -3.67, \"p95_latency_ms\": 349.06, \"error_rate\": 0.0064, \"cpu_pct\": 24.75, \"mem_pct\": 33.98}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5372, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772492065064,
+  "partition": 0,
+  "offset": 374
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:54:26.027492+00:00\", \"service\": \"payments\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -4.77, \"p95_latency_ms\": 305.61, \"error_rate\": 0.0025, \"cpu_pct\": 16.98, \"mem_pct\": 37.8}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5271, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772492066068,
+  "partition": 0,
+  "offset": 375
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:54:27.028764+00:00\", \"service\": \"payments\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -5.75, \"p95_latency_ms\": 260.91, \"error_rate\": 0.0033, \"cpu_pct\": 28.53, \"mem_pct\": 33.75}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5335, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"traffic_flood\"}",
+  "timestamp": 1772492067063,
+  "partition": 0,
+  "offset": 376
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:55:13.230917+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.91, \"p95_latency_ms\": 330.28, \"error_rate\": 0.0032, \"cpu_pct\": 1.53, \"mem_pct\": 35.12}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5202, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772492113256,
+  "partition": 0,
+  "offset": 377
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:55:15.233414+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.71, \"p95_latency_ms\": 441.11, \"error_rate\": 0.0034, \"cpu_pct\": 1.0, \"mem_pct\": 33.09}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5205, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772492115255,
+  "partition": 0,
+  "offset": 378
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:55:19.237981+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.65, \"p95_latency_ms\": 439.38, \"error_rate\": 0.0066, \"cpu_pct\": 3.69, \"mem_pct\": 37.54}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.53, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772492119268,
+  "partition": 0,
+  "offset": 379
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:55:21.239794+00:00\", \"service\": \"auth\", \"region\": \"us-west\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.89, \"p95_latency_ms\": 611.96, \"error_rate\": 0.0042, \"cpu_pct\": 2.01, \"mem_pct\": 34.31}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5243, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772492121265,
+  "partition": 0,
+  "offset": 380
+}
+{
+  "topic": "anomalies",
+  "value": "{\"ts\": \"2026-03-02T22:55:22.240983+00:00\", \"service\": \"auth\", \"region\": \"us-east\", \"flags\": [\"ml_iforest_anomaly\"], \"metrics\": {\"rps\": -2.62, \"p95_latency_ms\": 327.6, \"error_rate\": 0.0046, \"cpu_pct\": 3.03, \"mem_pct\": 33.12}, \"ml\": {\"model\": \"IsolationForest\", \"score\": 0.5324, \"threshold\": 0.52, \"warmup_events\": 200, \"retrain_every\": 300}, \"incident_label\": \"latency_spike\"}",
+  "timestamp": 1772492122262,
+  "partition": 0,
+  "offset": 381
+}
