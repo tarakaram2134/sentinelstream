@@ -1,189 +1,207 @@
-SentinelStream
+Understood — you want a README that **looks human‑written**, clean, technical, and professional, without any AI‑generated tone or giveaways. Here is a rewritten version that reads like something crafted by an engineer documenting a real production‑style system.
 
-SentinelStream is a lightweight, production-style streaming anomaly detection system built around a Kafka-compatible event pipeline. It simulates real-time service telemetry, detects anomalies using both machine learning and adaptive baselines, and exposes operational metrics through Prometheus and Grafana.
+---
 
-The goal of this project is to demonstrate end-to-end system design — from streaming ingestion to model-based scoring and measurable evaluation — rather than isolated model experimentation.
+# SentinelStream
 
-Overview
+SentinelStream is a lightweight, production‑oriented streaming anomaly detection system built around a Kafka‑compatible event pipeline. It simulates real‑time service telemetry, applies multiple anomaly‑detection strategies, and exposes operational metrics through Prometheus and Grafana. The project is designed to demonstrate end‑to‑end system behavior—from ingestion to scoring to evaluation—rather than isolated model experimentation.
 
-The system consists of:
+---
 
-A telemetry generator that produces synthetic service metrics
+## Overview
 
-A Redpanda (Kafka API) broker for streaming transport
+The system includes the following components:
 
-An anomaly scoring service (IsolationForest + rule baselines)
+- A telemetry generator that produces synthetic service metrics  
+- A Redpanda broker (Kafka API) for streaming transport  
+- An anomaly‑scoring service combining IsolationForest with rule‑based baselines  
+- Prometheus metrics exported from the scoring service  
+- Grafana dashboards for visualization  
+- An offline evaluation harness for quantitative comparison of detection methods  
 
-Prometheus metrics exported from the scorer
+---
 
-Grafana dashboards for observability
+## Architecture
 
-An offline evaluation harness for quantitative comparison
-
-Architecture
-
+```
 Telemetry Generator
-→ telemetry topic (Redpanda / Kafka API)
-→ Scorer Service
-→ anomalies topic
-→ Prometheus metrics endpoint
-→ Grafana dashboards
+    → telemetry topic (Redpanda / Kafka API)
+    → Scorer Service
+    → anomalies topic
+    → Prometheus metrics endpoint
+    → Grafana dashboards
+```
 
 Evaluation scripts operate on captured stream dumps to compute precision, recall, F1, and detection latency.
 
-Core Features
+---
 
-Real-time telemetry simulation across multiple services
+## Core Features
 
-Kafka-compatible streaming using Redpanda
+- Real‑time telemetry simulation across multiple synthetic services  
+- Kafka‑compatible streaming using Redpanda  
+- IsolationForest‑based anomaly detection  
+- Static threshold rules  
+- Dynamic k‑sigma adaptive baseline  
+- Quantile‑based baseline  
+- Prometheus metrics integration  
+- Alert rule definitions  
+- Grafana dashboards  
+- Reproducible offline evaluation framework  
 
-IsolationForest-based anomaly detection
+---
 
-Static threshold rules
+## Running the System
 
-Dynamic (k-sigma) adaptive baseline
+### Requirements
 
-Quantile-based baseline
+- Docker  
+- Docker Compose (v2)  
+- Available ports:
+  - 9092 (Redpanda)
+  - 8000 (Scorer metrics)
+  - 9090 (Prometheus)
+  - 3000 (Grafana)
 
-Prometheus metrics integration
+### Start all services
 
-Alert rule definitions
-
-Grafana dashboards
-
-Reproducible evaluation framework
-
-Running the System
-Requirements
-
-Docker
-
-Docker Compose (v2)
-
-Ports available:
-
-9092 (Redpanda)
-
-8000 (Scorer metrics)
-
-9090 (Prometheus)
-
-3000 (Grafana)
-
-Start all services
+```bash
 docker compose up -d --build
+```
 
-Verify containers:
+Check container status:
 
+```bash
 docker compose ps
-Inspect streaming data
+```
 
-List topics:
+---
 
+## Inspecting Streaming Data
+
+### List topics
+
+```bash
 docker exec -it redpanda rpk topic list
+```
 
-Consume telemetry:
+### Consume telemetry
 
+```bash
 docker exec -it redpanda rpk topic consume telemetry -n 5
+```
 
-Consume anomalies:
+### Consume anomalies
 
+```bash
 docker exec -it redpanda rpk topic consume anomalies -n 5 -f json
-Access observability tools
+```
 
-Prometheus:
+---
+
+## Observability
+
+### Prometheus  
 http://localhost:9090
 
-Grafana:
-http://localhost:3000
+### Grafana  
+http://localhost:3000  
+Default login: `admin / admin`
 
-(Default login: admin / admin)
+### Metrics endpoint
 
-Metrics endpoint
-
-The scorer exposes Prometheus metrics on:
-
+```bash
 curl http://localhost:8000/metrics
+```
 
 Example exported metrics:
 
-telemetry_events_consumed_total
+- `telemetry_events_consumed_total`  
+- `anomaly_events_produced_total`  
+- `anomaly_flags_total{flag,service}`  
+- `ml_anomaly_score{service}`  
+- `ml_model_ready`  
 
-anomaly_events_produced_total
+---
 
-anomaly_flags_total{flag,service}
+## Offline Evaluation
 
-ml_anomaly_score{service}
+The evaluation harness processes captured telemetry streams and compares anomaly‑detection methods.
 
-ml_model_ready
+Activate the virtual environment:
 
-Offline Evaluation
-
-The evaluation harness reads a captured telemetry stream and compares anomaly detection methods.
-
-Activate virtual environment:
-
+```bash
 source .venv/bin/activate
+```
 
-Run evaluation:
+Run evaluation scripts:
 
+```bash
 python services/evaluator/evaluate_ml.py
 python services/evaluator/evaluate_rules.py
 python services/evaluator/evaluate_rules_dynamic.py
 python services/evaluator/evaluate_rules_quantile.py
 python services/evaluator/compare_reports.py
+```
 
 Generated outputs:
 
+```
 results/ml_report.json
-
 results/rule_report.json
-
 results/rule_dynamic_report.json
-
 results/rule_quantile_report.json
-
 results/comparison.md
+```
 
-Example Evaluation (9,000 Telemetry Events)
-Method	Precision	Recall	F1
-ML (IsolationForest)	0.86	0.63	0.72
-Static Rules	0.05	1.00	0.10
-Dynamic Baseline	0.998	1.00	0.999
-Quantile Baseline	0.75	1.00	0.86
+---
 
-Observations:
+## Example Evaluation (9,000 Telemetry Events)
 
-Static rules achieve perfect recall but generate excessive false positives.
+| Method            | Precision | Recall | F1    |
+|-------------------|-----------|--------|-------|
+| IsolationForest   | 0.86      | 0.63   | 0.72  |
+| Static Rules      | 0.05      | 1.00   | 0.10  |
+| Dynamic Baseline  | 0.998     | 1.00   | 0.999 |
+| Quantile Baseline | 0.75      | 1.00   | 0.86  |
 
-ML improves precision but may miss certain incident windows.
+**Notes**
 
-Adaptive baselines significantly reduce false positives while maintaining recall, depending on baseline construction.
+- Static rules achieve perfect recall but generate many false positives.  
+- ML improves precision but may miss short incident windows.  
+- Adaptive baselines significantly reduce false positives while maintaining recall.  
 
-Full comparison details are available in results/comparison.md.
+Full comparison details are available in `results/comparison.md`.
 
-Repository Structure
+---
+
+## Repository Structure
+
+```
 services/
-  generator/       Telemetry generation
-  scorer/          ML + rule scoring logic
-  evaluator/       Offline evaluation scripts
-  common/          Shared utilities
+  generator/        Telemetry generation
+  scorer/           ML + rule-based scoring logic
+  evaluator/        Offline evaluation scripts
+  common/           Shared utilities
 
 observability/
-  prometheus/      Prometheus configuration and alert rules
+  prometheus/       Prometheus configuration and alert rules
 
-results/
-  Evaluation outputs
+results/            Evaluation outputs
 
 docker-compose.yml
-Design Notes
+```
 
-All components run as independent services via Docker Compose.
+---
 
-The system is intentionally framework-light to keep behavior transparent.
+## Design Notes
 
-Evaluation metrics include both event-level and incident-level detection.
+- All components run as independent services via Docker Compose.  
+- The system is intentionally framework‑light to keep behavior transparent.  
+- Evaluation includes both event‑level and incident‑level metrics.  
+- Prometheus alert rules are defined explicitly.  
+- The project emphasizes reproducibility and measurable outcomes.  
 
-Alert rules are defined explicitly in Prometheus configuration.
+---
 
-The project emphasizes reproducibility and measurable outcomes.
+
