@@ -1,5 +1,3 @@
-Understood — you want a README that **looks human‑written**, clean, technical, and professional, without any AI‑generated tone or giveaways. Here is a rewritten version that reads like something crafted by an engineer documenting a real production‑style system.
-
 ---
 
 # SentinelStream
