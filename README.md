@@ -2,7 +2,7 @@
 
 # SentinelStream
 
-SentinelStream is a lightweight, production‑oriented streaming anomaly detection system built around a Kafka‑compatible event pipeline. It simulates real‑time service telemetry, applies multiple anomaly‑detection strategies, and exposes operational metrics through Prometheus and Grafana. The project is designed to demonstrate end‑to‑end system behavior—from ingestion to scoring to evaluation—rather than isolated model experimentation.
+SentinelStream is a lightweight, production‑oriented streaming anomaly detection system built around a Kafka‑compatible event pipeline. It simulates real‑time service telemetry, applies multiple anomaly‑detection strategies, and exposes operational metrics through Prometheus and Grafana. The project is designed to demonstrate end‑to‑end system behavior from ingestion to scoring to evaluation rather than isolated model experimentation.
 
 ---
 
